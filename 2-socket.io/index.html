@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<metacharset="UTF-8">
+    <title>node.js学习代码：socket.io</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+</head>
+<body>
+	<div>
+		<div>
+            <h3>测试socket.io收发消息</h3>
+        </div>
+        <div align="center">
+            <button class="button_class" onclick="onConnect()">创建连接</button>
+            <button class="button_class" onclick="onStop()">终止连接</button>
+        </div>
+        <div>
+            <ul id="message"></ul>
+        </div>
+	</div>
+</body>
+</html>

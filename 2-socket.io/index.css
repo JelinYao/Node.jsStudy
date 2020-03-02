@@ -1,0 +1,8 @@
+.button_class{
+    margin-left: 10px;
+    width: 120px;
+    height: 42px;
+    color: aliceblue;
+    background-color: yellowgreen;
+    font-size: 18;
+}
