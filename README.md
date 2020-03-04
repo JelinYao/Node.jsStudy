@@ -1,5 +1,5 @@
 # Node.jsStudy
-Node.js服务器开发学习代码，包括接口处理、文件上传等功能。
+Node.js服务器开发学习代码，包括接口处理、文件上传、聊天室等功能。
 
 
 ## 代码目录
@@ -12,3 +12,9 @@ Node.js服务器开发学习代码，包括接口处理、文件上传等功能�
 socket.io官网：https://socket.io/
 
 ![](https://raw.githubusercontent.com/JelinYao/Node.jsStudy/master/2-socket.io/screen.png)
+
+### 3、socket.io聊天室，收发消息测试
+服务端：群发消息通知、转发客户端的消息
+客户端：发送消息到群里的所有客户端
+
+![](https://raw.githubusercontent.com/JelinYao/Node.jsStudy/master/3-chat/screen.png)

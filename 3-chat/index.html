@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>node.js学习代码：socket.io聊天室</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+<body>
+    <div class="outer">
+		<div align="center" style="height: 36px;">
+            <h3>测试socket.io收发消息</h3>
+        </div>
+        <div align="center" style="height: 50px;">
+            <button class="button_class" onclick="onInterRoom()">加入群聊</button>
+            <button class="button_class" onclick="onExitRoom()">退出群聊</button>
+        </div>
+        <div style="height:60%;overflow-y:scroll;">
+            <ul id="message"></ul>
+        </div>
+        <div align="center" class="footer">
+            <span>
+                <input id="msg_input" type="text" class="input_text" onkeydown="onInputKeydown(event)">
+            </span>
+            <span>
+                <button class="input_button" onclick="onSendMsg()">发送</button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

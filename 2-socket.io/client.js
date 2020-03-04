@@ -4,7 +4,7 @@
 var socket = null; 
 
 function onConnect(){
-    if(socket != null && !socket.disconnected){
+    if(socket != null && socket.connected){
         alert("socket is already connected!");
         return;
     }

@@ -1,0 +1,29 @@
+.button_class{
+    margin-left: 10px;
+    width: 120px;
+    height: 42px;
+    color: aliceblue;
+    background-color: yellowgreen;
+    font-size: 18;
+}
+
+.input_button{
+    width: 60px;
+    height: 32px;
+}
+
+.input_text{
+    width: 60%;
+    height: 26px;
+}
+
+.outer { height: 100%; padding: 100px 0 0; box-sizing: border-box ; position: relative; }
+
+.footer{
+    height: 30px;
+    width: 100%;
+    /*background-color: #ddd;*/
+    position: fixed;
+    margin-bottom: 20px;
+    bottom: 0;
+}
